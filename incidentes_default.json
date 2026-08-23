@@ -1,0 +1,44 @@
+[
+  {
+    "timestamp": "2026-08-23 13:56:00",
+    "service": "inventory",
+    "severity": "HIGH",
+    "metrics": [
+      "cpu_pct",
+      "latency_ms",
+      "throughput_rps"
+    ],
+    "possible_cause": "posible contención de recursos",
+    "true_incident_in_simulation": true,
+    "ground_truth_incident": "inventory_cpu_contention",
+    "message": "[HIGH] inventory: 3 señales correlacionadas (cpu_pct, latency_ms, throughput_rps). Causa sugerida: posible contención de recursos."
+  },
+  {
+    "timestamp": "2026-08-23 06:12:00",
+    "service": "orders",
+    "severity": "MEDIUM",
+    "metrics": [
+      "error_rate_pct",
+      "memory_pct"
+    ],
+    "possible_cause": "degradación multivariable del servicio",
+    "true_incident_in_simulation": true,
+    "ground_truth_incident": "orders_latency_drift",
+    "message": "[MEDIUM] orders: 2 señales correlacionadas (error_rate_pct, memory_pct). Causa sugerida: degradación multivariable del servicio."
+  },
+  {
+    "timestamp": "2026-08-23 09:37:00",
+    "service": "payments",
+    "severity": "CRITICAL",
+    "metrics": [
+      "cpu_pct",
+      "error_rate_pct",
+      "latency_ms",
+      "throughput_rps"
+    ],
+    "possible_cause": "posible degradación del servicio de pagos",
+    "true_incident_in_simulation": true,
+    "ground_truth_incident": "payments_degradation",
+    "message": "[CRITICAL] payments: 4 señales correlacionadas (cpu_pct, error_rate_pct, latency_ms, throughput_rps). Causa sugerida: posible degradación del servicio de pagos."
+  }
+]

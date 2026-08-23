@@ -1,0 +1,9 @@
+{
+  "baseline_false_positives_per_day": 576.0,
+  "target_false_positives_per_day": 230.4,
+  "false_positives_removed_per_day": 345.6,
+  "false_positives_removed_per_month": 10368.0,
+  "demo_noise_reduction_pct": 97.52066115702479,
+  "estimated_mttr_hours": 2.4499999999999997,
+  "mttr_minutes_saved": 63.000000000000014
+}
