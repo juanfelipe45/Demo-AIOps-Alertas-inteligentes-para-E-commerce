@@ -1,0 +1,52 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Packaging / build
+build/
+dist/
+*.egg-info/
+.eggs/
+pip-wheel-metadata/
+
+# Test / coverage
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+.nox/
+
+# IDEs / editors
+.vscode/
+.idea/
+*.code-workspace
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Streamlit local configuration / secrets
+.streamlit/secrets.toml
+
+# Local logs and temporary files
+*.log
+*.tmp
+*.temp
+~$*
+
+# Generated local outputs
+*.csv
+*.json
+
+# Keep source-controlled example/config files if explicitly added later
+!requirements.txt
